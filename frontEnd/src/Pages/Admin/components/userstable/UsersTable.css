@@ -1,0 +1,30 @@
+.users-table {
+  margin: 10px;
+}
+.users-table-tittle {
+  font-size: 25px;
+  color: #495e74;
+  font-weight: 600;
+  border-bottom: 3px solid #495e74;
+  width: fit-content;
+}
+.table-wrapper {
+  width: 98%;
+  margin: 10px;
+  border-spacing: 1px;
+  border-collapse:separate ;
+}
+.table-wrapper thead {
+  background-color: #1d2d3d;
+  color: white;
+  padding: 10px;
+}
+
+.table-wrapper tbody tr td {
+  border: 1px solid #efefef;
+  border-spacing: 4px;
+
+}
+.table-wrapper tbody tr:nth-child(odd){
+    background-color: #efefef;
+}
